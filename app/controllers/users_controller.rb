@@ -12,13 +12,13 @@ class UsersController < ApplicationController
   end
 
   def create
-    byebug
-    # user = User.new(user_params)
-    # if user.save
-    #   render json: user
-    # else
-    #   render json: {error: 'there was an error'}
-    # end
+    # byebug
+    user = User.new(email: params["email"], password: params["password"])
+    if user.save
+      render json: user
+    else
+      render json: {error: 'there was an error'}
+    end
   end
 
   private
