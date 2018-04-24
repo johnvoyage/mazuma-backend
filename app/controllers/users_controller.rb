@@ -7,7 +7,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by(slug: params[:slug])
+    # byebug
+    @user = User.find(params[:id])
     render json: @user
   end
 
@@ -19,6 +20,12 @@ class UsersController < ApplicationController
     else
       render json: {error: 'there was an error'}
     end
+  end
+
+  def destroy
+    @user = User.find(params[:id])
+    @user.delete
+    render json: {confirmation: 'account deleted'}
   end
 
   private
