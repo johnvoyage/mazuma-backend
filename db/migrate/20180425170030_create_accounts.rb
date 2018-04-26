@@ -3,6 +3,7 @@ class CreateAccounts < ActiveRecord::Migration[5.2]
     create_table :accounts do |t|
       t.string :name
       t.integer :subcategory_id
+      t.integer :user_id
       t.timestamps
     end
   end

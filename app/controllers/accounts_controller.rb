@@ -21,10 +21,16 @@ class AccountsController < ApplicationController
     end
   end
 
+  def show_users_accounts
+    # byebug
+    @accounts = Account.where(user_id: params[:id])
+    render json: @accounts
+  end
+
   private
 
   def account_params
-    params.require(:account).permit(:name)
+    params.require(:account).permit(:name, :subcategory_id, :user_id)
   end
 
 
