@@ -20,6 +20,11 @@ class EntriesController < ApplicationController
     end
   end
 
+  def show_users_entries
+    @entries = Entry.where(user_id: params[:id])
+    render json: @entries
+  end
+
   private
 
   def entry_params
