@@ -27,6 +27,11 @@ class AccountsController < ApplicationController
     render json: @accounts
   end
 
+  def get_account_id
+    @account = Account.find_by(name: params[:account_name])
+    render json: @account
+  end
+
   private
 
   def account_params
