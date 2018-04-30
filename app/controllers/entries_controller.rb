@@ -25,6 +25,15 @@ class EntriesController < ApplicationController
     render json: @entries
   end
 
+  def show_users_last_entry
+    @entry = Entry.last
+    # byebug
+    # entry[:transaction] = Transaction.where(entry_id: @entry.id)
+    render json: @entry
+  end
+
+
+
   private
 
   def entry_params

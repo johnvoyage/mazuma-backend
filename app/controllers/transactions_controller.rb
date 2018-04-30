@@ -21,8 +21,13 @@ class TransactionsController < ApplicationController
     end
   end
 
-  def show_entries_transactions
+  def show_entrys_transactions
     @transactions = Transaction.where(entry_id: params[:id])
+    render json: @transactions
+  end
+
+  def show_last_entrys_transactions
+    @transactions = Entry.last.transactions
     render json: @transactions
   end
 
