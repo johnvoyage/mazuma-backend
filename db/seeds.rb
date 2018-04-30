@@ -28,58 +28,58 @@ Account.create(name: "LIQUID4", subcategory_id: 1, user_id: 1) #4
 Account.create(name: "LIQUID5", subcategory_id: 1, user_id: 2) #5
 Account.create(name: "LIQUID6", subcategory_id: 1, user_id: 1) #6
 # Tangible assets
-Account.create(name: "TANGIBLE1", subcategory_id: 1, user_id: 1) #7
-Account.create(name: "TANGIBLE2", subcategory_id: 1, user_id: 2) #8
-Account.create(name: "TANGIBLE3", subcategory_id: 1, user_id: 3) #9
-Account.create(name: "TANGIBLE4", subcategory_id: 1, user_id: 1) #10
-Account.create(name: "TANGIBLE5", subcategory_id: 1, user_id: 2) #11
-Account.create(name: "TANGIBLE6", subcategory_id: 1, user_id: 1) #12
+Account.create(name: "TANGIBLE1", subcategory_id: 2, user_id: 1) #7
+Account.create(name: "TANGIBLE2", subcategory_id: 2, user_id: 2) #8
+Account.create(name: "TANGIBLE3", subcategory_id: 2, user_id: 3) #9
+Account.create(name: "TANGIBLE4", subcategory_id: 2, user_id: 1) #10
+Account.create(name: "TANGIBLE5", subcategory_id: 2, user_id: 2) #11
+Account.create(name: "TANGIBLE6", subcategory_id: 2, user_id: 1) #12
 # Intangible assets
-Account.create(name: "INTANGIBLE1", subcategory_id: 1, user_id: 1) #13
-Account.create(name: "INTANGIBLE2", subcategory_id: 1, user_id: 2) #14
-Account.create(name: "INTANGIBLE3", subcategory_id: 1, user_id: 3) #15
-Account.create(name: "INTANGIBLE4", subcategory_id: 1, user_id: 1) #16
-Account.create(name: "INTANGIBLE5", subcategory_id: 1, user_id: 2) #17
-Account.create(name: "INTANGIBLE6", subcategory_id: 1, user_id: 1) #18
+Account.create(name: "INTANGIBLE1", subcategory_id: 3, user_id: 1) #13
+Account.create(name: "INTANGIBLE2", subcategory_id: 3, user_id: 2) #14
+Account.create(name: "INTANGIBLE3", subcategory_id: 3, user_id: 3) #15
+Account.create(name: "INTANGIBLE4", subcategory_id: 3, user_id: 1) #16
+Account.create(name: "INTANGIBLE5", subcategory_id: 3, user_id: 2) #17
+Account.create(name: "INTANGIBLE6", subcategory_id: 3, user_id: 1) #18
 # Long-term assets
-Account.create(name: "LTASSET1", subcategory_id: 1, user_id: 1) #19
-Account.create(name: "LTASSET2", subcategory_id: 1, user_id: 2) #20
-Account.create(name: "LTASSET3", subcategory_id: 1, user_id: 3) #21
-Account.create(name: "LTASSET4", subcategory_id: 1, user_id: 1) #22
-Account.create(name: "LTASSET5", subcategory_id: 1, user_id: 2) #23
-Account.create(name: "LTASSET6", subcategory_id: 1, user_id: 1) #24
+Account.create(name: "LTASSET1", subcategory_id: 4, user_id: 1) #19
+Account.create(name: "LTASSET2", subcategory_id: 4, user_id: 2) #20
+Account.create(name: "LTASSET3", subcategory_id: 4, user_id: 3) #21
+Account.create(name: "LTASSET4", subcategory_id: 4, user_id: 1) #22
+Account.create(name: "LTASSET5", subcategory_id: 4, user_id: 2) #23
+Account.create(name: "LTASSET6", subcategory_id: 4, user_id: 1) #24
 # Short-term liabilities
-Account.create(name: "STLIABILITY1", subcategory_id: 1, user_id: 1) #25
-Account.create(name: "STLIABILITY2", subcategory_id: 1, user_id: 2) #26
-Account.create(name: "STLIABILITY3", subcategory_id: 1, user_id: 3) #27
-Account.create(name: "STLIABILITY4", subcategory_id: 1, user_id: 1) #28
-Account.create(name: "STLIABILITY5", subcategory_id: 1, user_id: 2) #29
-Account.create(name: "STLIABILITY6", subcategory_id: 1, user_id: 1) #30
+Account.create(name: "STLIABILITY1", subcategory_id: 5, user_id: 1) #25
+Account.create(name: "STLIABILITY2", subcategory_id: 5, user_id: 2) #26
+Account.create(name: "STLIABILITY3", subcategory_id: 5, user_id: 3) #27
+Account.create(name: "STLIABILITY4", subcategory_id: 5, user_id: 1) #28
+Account.create(name: "STLIABILITY5", subcategory_id: 5, user_id: 2) #29
+Account.create(name: "STLIABILITY6", subcategory_id: 5, user_id: 1) #30
 # Long-term liabilities
-Account.create(name: "LTLIABILITY1", subcategory_id: 1, user_id: 1) #31
-Account.create(name: "LTLIABILITY2", subcategory_id: 1, user_id: 2) #32
-Account.create(name: "LTLIABILITY3", subcategory_id: 1, user_id: 3) #33
-Account.create(name: "LTLIABILITY4", subcategory_id: 1, user_id: 1) #34
-Account.create(name: "LTLIABILITY5", subcategory_id: 1, user_id: 2) #35
-Account.create(name: "LTLIABILITY6", subcategory_id: 1, user_id: 1) #36
+Account.create(name: "LTLIABILITY1", subcategory_id: 6, user_id: 1) #31
+Account.create(name: "LTLIABILITY2", subcategory_id: 6, user_id: 2) #32
+Account.create(name: "LTLIABILITY3", subcategory_id: 6, user_id: 3) #33
+Account.create(name: "LTLIABILITY4", subcategory_id: 6, user_id: 1) #34
+Account.create(name: "LTLIABILITY5", subcategory_id: 6, user_id: 2) #35
+Account.create(name: "LTLIABILITY6", subcategory_id: 6, user_id: 1) #36
 # Net worths (one per user)
 Account.create(name: "NET WORTH", subcategory_id: 7, user_id: 1) #37
 Account.create(name: "NET WORTH", subcategory_id: 7, user_id: 2) #38
 Account.create(name: "NET WORTH", subcategory_id: 7, user_id: 3) #39
 # Earning
-Account.create(name: "EARNING1", subcategory_id: 1, user_id: 1) #40
-Account.create(name: "EARNING2", subcategory_id: 1, user_id: 2) #41
-Account.create(name: "EARNING3", subcategory_id: 1, user_id: 3) #42
-Account.create(name: "EARNING4", subcategory_id: 1, user_id: 1) #43
-Account.create(name: "EARNING5", subcategory_id: 1, user_id: 2) #44
-Account.create(name: "EARNING6", subcategory_id: 1, user_id: 1) #45
+Account.create(name: "EARNING1", subcategory_id: 8, user_id: 1) #40
+Account.create(name: "EARNING2", subcategory_id: 8, user_id: 2) #41
+Account.create(name: "EARNING3", subcategory_id: 8, user_id: 3) #42
+Account.create(name: "EARNING4", subcategory_id: 8, user_id: 1) #43
+Account.create(name: "EARNING5", subcategory_id: 8, user_id: 2) #44
+Account.create(name: "EARNING6", subcategory_id: 8, user_id: 1) #45
 # Spending
-Account.create(name: "SPENDING1", subcategory_id: 1, user_id: 1) #46
-Account.create(name: "SPENDING2", subcategory_id: 1, user_id: 2) #47
-Account.create(name: "SPENDING3", subcategory_id: 1, user_id: 3) #48
-Account.create(name: "SPENDING4", subcategory_id: 1, user_id: 1) #49
-Account.create(name: "SPENDING5", subcategory_id: 1, user_id: 2) #50
-Account.create(name: "SPENDING6", subcategory_id: 1, user_id: 1) #51
+Account.create(name: "SPENDING1", subcategory_id: 9, user_id: 1) #46
+Account.create(name: "SPENDING2", subcategory_id: 9, user_id: 2) #47
+Account.create(name: "SPENDING3", subcategory_id: 9, user_id: 3) #48
+Account.create(name: "SPENDING4", subcategory_id: 9, user_id: 1) #49
+Account.create(name: "SPENDING5", subcategory_id: 9, user_id: 2) #50
+Account.create(name: "SPENDING6", subcategory_id: 9, user_id: 1) #51
 
 Entry.create(date: "2018/01/01", description: "ENTRY1Lorem ipsum dolor spisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", user_id: 1) #1
 Entry.create(date: "2018/02/02", description: "ENTRY2Lorem ipsum dolor spisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", user_id: 1) #2
