@@ -5,14 +5,13 @@ class TransactionsController < ApplicationController
     @transactions = Transaction.all
     render json: @transactions
   end
+
   def show
-    # byebug
     @transaction = Transaction.find(params[:id])
     render json: @transaction
   end
 
   def create
-    # byebug
     transaction = Transaction.new(transaction_params)
     if transaction.save
       render json: transaction
@@ -39,8 +38,3 @@ class TransactionsController < ApplicationController
 
 
 end
-# create_table :transactions do |t|
-#   t.decimal :amount, precision: 10, scale: 2
-#   t.integer :entry_id
-#   t.integer :account_id
-#   t.timestamps

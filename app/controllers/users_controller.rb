@@ -7,13 +7,11 @@ class UsersController < ApplicationController
   end
 
   def show
-    # byebug
     @user = User.find(params[:id])
     render json: @user
   end
 
   def create
-    # byebug
     user = User.new(email: params["email"], password: params["password"])
     if user.save
       render json: user
@@ -23,10 +21,8 @@ class UsersController < ApplicationController
   end
 
   def update
-    # byebug
     user = User.find(params[:id])
   end
-
 
   def destroy
     @user = User.find(params[:id])

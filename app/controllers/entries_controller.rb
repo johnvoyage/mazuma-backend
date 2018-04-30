@@ -4,14 +4,13 @@ class EntriesController < ApplicationController
     @entries = Entry.all
     render json: @entries
   end
+  
   def show
-    # byebug
     @entry = Entry.find(params[:id])
     render json: @entry
   end
 
   def create
-    # byebug
     entry = Entry.new(entry_params)
     if entry.save
       render json: entry
@@ -27,8 +26,6 @@ class EntriesController < ApplicationController
 
   def show_users_last_entry
     @entry = Entry.last
-    # byebug
-    # entry[:transaction] = Transaction.where(entry_id: @entry.id)
     render json: @entry
   end
 

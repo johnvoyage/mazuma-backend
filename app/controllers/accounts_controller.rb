@@ -5,14 +5,13 @@ class AccountsController < ApplicationController
     @accounts = Account.all
     render json: @accounts
   end
+
   def show
-    # byebug
     @account = Account.find(params[:id])
     render json: @account
   end
 
   def create
-    # byebug
     account = Account.new(account_params)
     if account.save
       render json: account
@@ -22,7 +21,6 @@ class AccountsController < ApplicationController
   end
 
   def show_users_accounts
-    # byebug
     @accounts = Account.where(user_id: params[:id])
     render json: @accounts
   end
