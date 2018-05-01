@@ -4,7 +4,7 @@ class EntriesController < ApplicationController
     @entries = Entry.all
     render json: @entries
   end
-  
+
   def show
     @entry = Entry.find(params[:id])
     render json: @entry
@@ -29,8 +29,6 @@ class EntriesController < ApplicationController
     render json: @entry
   end
 
-
-
   private
 
   def entry_params
@@ -38,8 +36,3 @@ class EntriesController < ApplicationController
   end
 
 end
-
-# t.datetime :date
-# t.text :description
-# t.integer :user_id
-# t.timestamps

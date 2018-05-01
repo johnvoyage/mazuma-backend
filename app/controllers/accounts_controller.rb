@@ -1,6 +1,5 @@
 class AccountsController < ApplicationController
 
-
   def index
     @accounts = Account.all
     render json: @accounts
@@ -33,8 +32,7 @@ class AccountsController < ApplicationController
   private
 
   def account_params
-    params.require(:account).permit(:name, :subcategory_id, :user_id)
+    params.require(:account).permit(:name, :subcategory_id, :user_id, :description)
   end
-
 
 end

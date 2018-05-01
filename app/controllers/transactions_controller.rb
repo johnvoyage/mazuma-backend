@@ -1,6 +1,5 @@
 class TransactionsController < ApplicationController
 
-
   def index
     @transactions = Transaction.all
     render json: @transactions
@@ -35,6 +34,5 @@ class TransactionsController < ApplicationController
   def transaction_params
     params.require(:transaction).permit(:amount, :entry_id, :account_id)
   end
-
 
 end
