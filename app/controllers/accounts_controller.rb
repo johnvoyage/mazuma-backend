@@ -25,7 +25,7 @@ class AccountsController < ApplicationController
   end
 
   def get_account_id
-    @account = Account.find_by(name: params[:account_name])
+    @account = Account.find_by(name: params[:account_name], user_id: params[:user_id])
     render json: @account
   end
 

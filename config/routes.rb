@@ -17,6 +17,6 @@ Rails.application.routes.draw do
 
   get '/entries/:id/transactions', to: 'transactions#show_entrys_transactions'
 
-  get '/accountname/:account_name', to: 'accounts#get_account_id'
+  get '/accountname/:account_name/:user_id', to: 'accounts#get_account_id'
 
 end
