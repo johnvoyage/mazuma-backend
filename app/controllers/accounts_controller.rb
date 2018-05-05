@@ -25,8 +25,9 @@ class AccountsController < ApplicationController
   end
 
   def get_account_id
-    # byebug
-    # account_name = params[:account_name].gsub('%20', ' ')
+    byebug
+    # p 'heerreeee!'
+    account_name = params[:account_name].gsub('%20', ' ')
     @account = Account.find_by(name: account_name, user_id: params[:user_id])
     render json: @account
   end

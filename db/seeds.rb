@@ -19,8 +19,8 @@ Subcategory.create(name: "Spending") #9
 User.create(email: 'jy1', password: 'pw')
 
 # Liquid assets
-Account.create(name: "CHASE CHECKING ACCT #1234", subcategory_id: 1, user_id: 1) #1
-Account.create(name: "CITIBANK SAVINGS ACCT #2345", subcategory_id: 1, user_id: 1) #2
+Account.create(name: "CHASE CHECKING ACCT 1234", subcategory_id: 1, user_id: 1) #1
+Account.create(name: "CITIBANK SAVINGS ACCT 2345", subcategory_id: 1, user_id: 1) #2
 Account.create(name: "CASH IN SOCK DRAWER", subcategory_id: 1, user_id: 1) #3
 Account.create(name: "CASH IN WALLET", subcategory_id: 1, user_id: 1) #4
 Account.create(name: "PIGGY BANK", subcategory_id: 1, user_id: 1) #5
@@ -36,24 +36,24 @@ Account.create(name: "JEWELRY", subcategory_id: 2, user_id: 1) #12
 Account.create(name: "PREPAID TAXES", subcategory_id: 3, user_id: 1) #13
 Account.create(name: "INHERITANCE", subcategory_id: 3, user_id: 1) #14
 # Long-term assets
-Account.create(name: "HSA ACCOUNT #3456", subcategory_id: 4, user_id: 1) #15
-Account.create(name: "401K ACCOUNT #4567", subcategory_id: 4, user_id: 1) #16
-Account.create(name: "401K ACCOUNT #6789", subcategory_id: 4, user_id: 1) #17
+Account.create(name: "HSA ACCOUNT 3456", subcategory_id: 4, user_id: 1) #15
+Account.create(name: "401K ACCOUNT 4567", subcategory_id: 4, user_id: 1) #16
+Account.create(name: "401K ACCOUNT 6789", subcategory_id: 4, user_id: 1) #17
 Account.create(name: "COLLEGE SAVINGS ACCOUNT", subcategory_id: 4, user_id: 1) #18
-Account.create(name: "ETRADE ACCOUNT #7890", subcategory_id: 4, user_id: 1) #19
+Account.create(name: "ETRADE ACCOUNT 7890", subcategory_id: 4, user_id: 1) #19
 Account.create(name: "TRUST FUND", subcategory_id: 4, user_id: 1) #20
 # Short-term liabilities
 Account.create(name: "CREDIT CARD 1", subcategory_id: 5, user_id: 1) #21
 Account.create(name: "CREDIT CARD 2", subcategory_id: 5, user_id: 1) #22
 Account.create(name: "SHORT-TERM PORTION OF SCHOOL LOAN", subcategory_id: 5, user_id: 1) #23
-Account.create(name: "SHORT-TERM PORTION OF CAR LOAN #1234", subcategory_id: 5, user_id: 1) #24
-Account.create(name: "SHORT-TERM PORTION OF CAR LOAN #2345", subcategory_id: 5, user_id: 1) #25
-Account.create(name: "SHORT-TERM PORTION OF HOUSE LOAN #3456", subcategory_id: 5, user_id: 1) #26
+Account.create(name: "SHORT-TERM PORTION OF CAR LOAN 1234", subcategory_id: 5, user_id: 1) #24
+Account.create(name: "SHORT-TERM PORTION OF CAR LOAN 2345", subcategory_id: 5, user_id: 1) #25
+Account.create(name: "SHORT-TERM PORTION OF HOUSE LOAN 3456", subcategory_id: 5, user_id: 1) #26
 Account.create(name: "TAX LIABILITY", subcategory_id: 5, user_id: 1) #27
 # Long-term liabilities
-Account.create(name: "LONG-TERM PORTION OF CAR LOAN #1234", subcategory_id: 6, user_id: 1) #28
-Account.create(name: "LONG-TERM PORTION OF CAR LOAN #2345", subcategory_id: 6, user_id: 1) #29
-Account.create(name: "LONG-TERM PORTION OF HOUSE LOAN #3456", subcategory_id: 6, user_id: 1) #30
+Account.create(name: "LONG-TERM PORTION OF CAR LOAN 1234", subcategory_id: 6, user_id: 1) #28
+Account.create(name: "LONG-TERM PORTION OF CAR LOAN 2345", subcategory_id: 6, user_id: 1) #29
+Account.create(name: "LONG-TERM PORTION OF HOUSE LOAN 3456", subcategory_id: 6, user_id: 1) #30
 Account.create(name: "LONG-TERM PORTION OF SCHOOL LOAN", subcategory_id: 6, user_id: 1) #31
 # Net worths (one per user)
 Account.create(name: "NET WORTH", subcategory_id: 7, user_id: 1) #32
@@ -189,7 +189,6 @@ Transaction.create(amount: -727.68, entry_id: 27, account_id: 1)
 # Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #58
 # Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #59
 # Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #60
-
 
 Transaction.create(amount: 2500, entry_id: 1, account_id: 1)
 Transaction.create(amount: 5000, entry_id: 1, account_id: 2)
