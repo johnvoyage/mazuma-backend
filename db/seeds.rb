@@ -70,6 +70,8 @@ Account.create(name: "ENTERTAINMENT", subcategory_id: 9, user_id: 1) #40
 Account.create(name: "TAX EXPENSE", subcategory_id: 9, user_id: 1) #41
 Account.create(name: "VEHICLE UPKEEP", subcategory_id: 9, user_id: 1) #42
 Account.create(name: "FAST FOOD", subcategory_id: 9, user_id: 1) #43
+Account.create(name: "MEDICAL", subcategory_id: 9, user_id: 1) #44
+
 
 Entry.create(date: "2018/01/01", description: "Initial entry", user_id: 1) #1
 Entry.create(date: "2018/01/01", description: "Monthly interest from savings account.", user_id: 1) #2
@@ -88,6 +90,106 @@ Entry.create(date: "2018/01/14", description: "Picked up a quarter", user_id: 1)
 Entry.create(date: "2018/01/15", description: "Used Amazon gift card and then some :(", user_id: 1) #15
 Entry.create(date: "2018/01/16", description: "Biweekly paycheck", user_id: 1) #16
 Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #17
+
+Entry.create(date: "2018/01/30", description: "Biweekly paycheck", user_id: 1) #18
+Transaction.create(amount: 2000, entry_id: 18, account_id: 1)
+Transaction.create(amount: 100, entry_id: 18, account_id: 2)
+Transaction.create(amount: -4000, entry_id: 18, account_id: 35)
+Transaction.create(amount: 1500, entry_id: 18, account_id: 41)
+Transaction.create(amount: 100, entry_id: 18, account_id: 15)
+Transaction.create(amount: 250, entry_id: 18, account_id: 16)
+
+Entry.create(date: "2018/02/13", description: "Biweekly paycheck", user_id: 1) #19
+Transaction.create(amount: 2000, entry_id: 19, account_id: 1)
+Transaction.create(amount: 100, entry_id: 19, account_id: 2)
+Transaction.create(amount: -4000, entry_id: 19, account_id: 35)
+Transaction.create(amount: 1500, entry_id: 19, account_id: 41)
+Transaction.create(amount: 100, entry_id: 19, account_id: 15)
+Transaction.create(amount: 250, entry_id: 19, account_id: 16)
+
+Entry.create(date: "2018/02/27", description: "Biweekly paycheck", user_id: 1) #20
+Transaction.create(amount: 2000, entry_id: 20, account_id: 1)
+Transaction.create(amount: 100, entry_id: 20, account_id: 2)
+Transaction.create(amount: -4000, entry_id: 20, account_id: 35)
+Transaction.create(amount: 1500, entry_id: 20, account_id: 41)
+Transaction.create(amount: 100, entry_id: 20, account_id: 15)
+Transaction.create(amount: 250, entry_id: 20, account_id: 16)
+
+Entry.create(date: "2018/03/13", description: "Biweekly paycheck", user_id: 1) #21
+Transaction.create(amount: 2000, entry_id: 21, account_id: 1)
+Transaction.create(amount: 100, entry_id: 21, account_id: 2)
+Transaction.create(amount: -4000, entry_id: 21, account_id: 35)
+Transaction.create(amount: 1500, entry_id: 21, account_id: 41)
+Transaction.create(amount: 100, entry_id: 21, account_id: 15)
+Transaction.create(amount: 250, entry_id: 21, account_id: 16)
+
+Entry.create(date: "2018/03/27", description: "Biweekly paycheck", user_id: 1) #22
+Transaction.create(amount: 2000, entry_id: 22, account_id: 1)
+Transaction.create(amount: 100, entry_id: 22, account_id: 2)
+Transaction.create(amount: -4000, entry_id: 22, account_id: 35)
+Transaction.create(amount: 1500, entry_id: 22, account_id: 41)
+Transaction.create(amount: 100, entry_id: 22, account_id: 15)
+Transaction.create(amount: 250, entry_id: 22, account_id: 16)
+
+Entry.create(date: "2018/02/04", description: "Car payment", user_id: 1) #23
+Transaction.create(amount: 102.12, entry_id: 23, account_id: 24)
+Transaction.create(amount: 25.56, entry_id: 23, account_id: 38)
+Transaction.create(amount: -127.68, entry_id: 23, account_id: 1)
+
+Entry.create(date: "2018/03/04", description: "Car payment", user_id: 1) #24
+Transaction.create(amount: 105.12, entry_id: 24, account_id: 24)
+Transaction.create(amount: 22.56, entry_id: 24, account_id: 38)
+Transaction.create(amount: -127.68, entry_id: 24, account_id: 1)
+
+Entry.create(date: "2018/04/04", description: "Car payment", user_id: 1) #25
+Transaction.create(amount: 108.12, entry_id: 25, account_id: 24)
+Transaction.create(amount: 19.56, entry_id: 25, account_id: 38)
+Transaction.create(amount: -127.68, entry_id: 25, account_id: 1)
+
+Entry.create(date: "2018/02/17", description: "House payment", user_id: 1) #26
+Transaction.create(amount: 635.23, entry_id: 26, account_id: 26)
+Transaction.create(amount: 92.45, entry_id: 26, account_id: 38)
+Transaction.create(amount: -727.68, entry_id: 26, account_id: 1)
+
+Entry.create(date: "2018/03/17", description: "House payment", user_id: 1) #27
+Transaction.create(amount: 638.23, entry_id: 27, account_id: 26)
+Transaction.create(amount: 89.45, entry_id: 27, account_id: 38)
+Transaction.create(amount: -727.68, entry_id: 27, account_id: 1)
+
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #28
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #29
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #30
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #31
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #32
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #33
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #34
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #35
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #36
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #37
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #38
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #39
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #40
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #41
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #42
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #43
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #44
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #45
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #46
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #47
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #48
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #49
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #50
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #51
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #52
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #53
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #54
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #55
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #56
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #57
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #58
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #59
+# Entry.create(date: "2018/01/17", description: "House payment", user_id: 1) #60
+
 
 Transaction.create(amount: 2500, entry_id: 1, account_id: 1)
 Transaction.create(amount: 5000, entry_id: 1, account_id: 2)
