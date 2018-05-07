@@ -6,6 +6,7 @@ class AuthController < ApplicationController
       render json: {
         id: user.id,
         email: user.email,
+        created_at: user.created_at,
         jwt: JWT.encode({user_id: user.id}, ENV['secret_key'], 'HS256')
       }
     else
@@ -17,7 +18,8 @@ class AuthController < ApplicationController
     if current_user
       render json: {
         id: current_user.id,
-        email: current_user.email
+        email: current_user.email,
+        created_at: current_user.created_at
       }
     else
       render json: {error: 'No id present on headers'}, status: 404
