@@ -72,6 +72,17 @@ Account.create(name: "VEHICLE UPKEEP", subcategory_id: 9, user_id: 1) #42
 Account.create(name: "FAST FOOD", subcategory_id: 9, user_id: 1) #43
 Account.create(name: "MEDICAL", subcategory_id: 9, user_id: 1) #44
 
+Account.create(name: "TRAVELING", subcategory_id: 9, user_id: 1) #45
+Account.create(name: "EDUCATION", subcategory_id: 9, user_id: 1) #46
+Account.create(name: "PETS", subcategory_id: 9, user_id: 1) #47
+
+Account.create(name: "GAIN ON STOCK SALES", subcategory_id: 8, user_id: 1) #48
+Account.create(name: "GAIN ON CAR SALE", subcategory_id: 8, user_id: 1) #49
+Account.create(name: "SCRATCH-IT WINNINGS", subcategory_id: 8, user_id: 1) #50
+
+Account.create(name: "STOCK OPTIONS", subcategory_id: 3, user_id: 1) #51
+
+
 
 Entry.create(date: "2018/01/01", description: "Initial entry", user_id: 1) #1
 Entry.create(date: "2018/01/01", description: "Monthly interest from savings account.", user_id: 1) #2
