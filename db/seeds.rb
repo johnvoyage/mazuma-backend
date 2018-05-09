@@ -56,7 +56,8 @@ Account.create(name: "LONG-TERM PORTION OF CAR LOAN 2345", description: 'seed da
 Account.create(name: "LONG-TERM PORTION OF HOUSE LOAN 3456", description: 'seed data description', subcategory_id: 6, user_id: 1) #30
 Account.create(name: "LONG-TERM PORTION OF SCHOOL LOAN", description: 'seed data description', subcategory_id: 6, user_id: 1) #31
 # Net worths (one per user)
-Account.create(name: "NET WORTH", description: 'seed data description', subcategory_id: 7, user_id: 1) #32
+# Account.create(name: "NET WORTH", description: 'seed data description', subcategory_id: 7, user_id: 1) #32
+Account.create(name: "APPLE STOCK", description: 'seed data description', subcategory_id: 1, user_id: 1) #32
 # Earning
 Account.create(name: "INTEREST EARNED", description: 'seed data description', subcategory_id: 8, user_id: 1) #33
 Account.create(name: "DIVIDENDS", description: 'seed data description', subcategory_id: 8, user_id: 1) #34
